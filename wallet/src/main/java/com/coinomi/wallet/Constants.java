@@ -310,7 +310,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.EGULDEN_MAIN.getCoinType(), "https://chainz.cryptoid.info/efl/tx.dws?%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.RICHCOIN_MAIN.getCoinType(), "https://explorer.richcoin.us/transaction?transaction=%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.IXCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/ixc/tx.dws?%s");
-        COINS_BLOCK_EXPLORERS.put(CoinID.IONCOIN_MAIN.getCoinType(), "https://ionblockexplorer.com/transaction/%s");
+        COINS_BLOCK_EXPLORERS.put(CoinID.IONCOIN_MAIN.getCoinType(), "https://ionexplorer.com/transaction/%s");
     }
 
     public static final CoinType DEFAULT_COIN = BitcoinMain.get();
